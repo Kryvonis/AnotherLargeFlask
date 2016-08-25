@@ -1,6 +1,6 @@
 from datetime import datetime
 from flask import redirect, render_template, sessions, url_for
-from . import main
+from app import main
 
 
 @main.route('/', methods=['GET', 'POST'])
